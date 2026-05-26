@@ -18,6 +18,41 @@
         "type": "github"
       }
     },
+    "museld": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1779198999,
+        "narHash": "sha256-76Wzz7SOLS7HY3QILwzC9I90e+3fZYJ+ufexgQJbFhU=",
+        "owner": "staffanu",
+        "repo": "museld",
+        "rev": "6164a967e95fed3d5c0ed3c6ca1739f46b73f289",
+        "type": "github"
+      },
+      "original": {
+        "owner": "staffanu",
+        "repo": "museld",
+        "type": "github"
+      }
+    },
+    "nanobind-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1733439979,
+        "narHash": "sha256-9OpDsjFEeJGtbti4Q9HHl78XaGf8M3lG4ukvHCMzyMU=",
+        "ref": "refs/tags/v2.4.0",
+        "rev": "0f9ce749b257fdfe701edb3cf6f7027ba029434a",
+        "revCount": 1015,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/wjakob/nanobind"
+      },
+      "original": {
+        "ref": "refs/tags/v2.4.0",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/wjakob/nanobind"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1774799055,
@@ -37,6 +72,8 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "museld": "museld",
+        "nanobind-src": "nanobind-src",
         "nixpkgs": "nixpkgs"
       }
     },
