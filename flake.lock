@@ -21,11 +21,11 @@
     "museld": {
       "flake": false,
       "locked": {
-        "lastModified": 1779198999,
-        "narHash": "sha256-76Wzz7SOLS7HY3QILwzC9I90e+3fZYJ+ufexgQJbFhU=",
+        "lastModified": 1779899493,
+        "narHash": "sha256-tKdKvGMK1uQDge25bmHErpyijoxg95/BP3qZ0ExCHs4=",
         "owner": "staffanu",
         "repo": "museld",
-        "rev": "6164a967e95fed3d5c0ed3c6ca1739f46b73f289",
+        "rev": "20ff355cc936dea083b0abc33138d8f72b675b2a",
         "type": "github"
       },
       "original": {
